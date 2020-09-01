@@ -1,0 +1,66 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.product__container {
+    display: flex;
+    justify-content: center;
+}
+
+.product__img  {
+    width: 610px;
+    height: 714px;
+    background-image: url("img/rectangle 4.jpg");
+}
+
+.product__content {
+    background-color: lightblue;
+    max-width: 610px;
+    height: 714px;
+}
+
+.product__btnContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.product__btnContainerA {
+    display: flex;
+    background-color: #FFFFFF;
+    width: 196px;
+    height: 50px;
+    justify-content: space-around;
+    border: 1px solid #000000;
+    border-radius: 3px;
+}
+
+.product__btnContainerB {
+    background-color: #769517;
+    width: 205px;
+    height: 51px;
+    border-radius: 3px;
+}
+
+.product__busket {
+    height: 50px;
+    width: 50px;
+    background-image: url("img/supermarket.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
