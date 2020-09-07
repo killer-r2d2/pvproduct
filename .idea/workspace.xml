@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c80ab96-cd47-45e9-8d56-f9d6c75411d5" name="Default Changelist" comment="product in progess" />
+    <list default="true" id="2c80ab96-cd47-45e9-8d56-f9d6c75411d5" name="Default Changelist" comment="product in progess 2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +34,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="c9327855-3f14-4694-a9b7-603e24acd4ff" />
   </component>
   <component name="ProjectId" id="1grA4NEIt8zsvd0bqKZ0utVq4co" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -53,7 +69,11 @@
       <option name="presentableId" value="Default" />
       <updated>1598862146510</updated>
       <workItem from="1598862147850" duration="18773000" />
-      <workItem from="1598940980115" duration="24493000" />
+      <workItem from="1598940980115" duration="25083000" />
+      <workItem from="1599332177461" duration="583000" />
+      <workItem from="1599390606792" duration="614000" />
+      <workItem from="1599460936852" duration="1661000" />
+      <workItem from="1599486567640" duration="4734000" />
     </task>
     <task id="LOCAL-00001" summary="product in progess">
       <created>1598970987497</created>
@@ -62,28 +82,57 @@
       <option name="project" value="LOCAL" />
       <updated>1598970987498</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="product in progess 2">
+      <created>1598971162061</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598971162061</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="product in progess" />
-    <option name="LAST_COMMIT_MESSAGE" value="product in progess" />
+    <MESSAGE value="product in progess 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="product in progess 2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="3072" y="492" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598863307822">
       <screen x="3000" y="141" width="2560" height="1400" />
     </state>
     <state x="3072" y="492" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1500.960/3000.141.2560.1400@3000.141.2560.1400" timestamp="1598863307822" />
-    <state x="4061" y="801" key="FileChooserDialogImpl" timestamp="1598970925566">
-      <screen x="3000" y="0" width="2560" height="1400" />
+    <state x="636" y="229" key="FileChooserDialogImpl" timestamp="1599465396327">
+      <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="4061" y="801" key="FileChooserDialogImpl/0.0.1500.960/3000.0.2560.1400@3000.0.2560.1400" timestamp="1598970925566" />
-    <state x="3873" y="779" key="Vcs.Push.Dialog.v2" timestamp="1598971079720">
+    <state x="636" y="229" key="FileChooserDialogImpl/0.0.1500.960@0.0.1500.960" timestamp="1599465396327" />
+    <state x="4142" y="959" key="Github.Dialog.Accounts.Choose" timestamp="1598971272851">
       <screen x="3000" y="0" width="2560" height="1400" />
     </state>
-    <state x="3873" y="779" key="Vcs.Push.Dialog.v2/0.0.1500.960/3000.0.2560.1400@3000.0.2560.1400" timestamp="1598971079720" />
+    <state x="4142" y="959" key="Github.Dialog.Accounts.Choose/0.0.1500.960/3000.0.2560.1400@3000.0.2560.1400" timestamp="1598971272851" />
+    <state x="4075" y="926" key="Github.ShareDialog" timestamp="1598971262239">
+      <screen x="3000" y="0" width="2560" height="1400" />
+    </state>
+    <state x="4075" y="926" key="Github.ShareDialog/0.0.1500.960/3000.0.2560.1400@3000.0.2560.1400" timestamp="1598971262239" />
+    <state x="3873" y="779" key="Vcs.Push.Dialog.v2" timestamp="1598971170057">
+      <screen x="3000" y="0" width="2560" height="1400" />
+    </state>
+    <state x="3873" y="779" key="Vcs.Push.Dialog.v2/0.0.1500.960/3000.0.2560.1400@3000.0.2560.1400" timestamp="1598971170057" />
   </component>
 </project>

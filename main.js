@@ -23,28 +23,38 @@
 
 // The vanilla Javascript counter
 
-    // plus
-const plusBtn = document.querySelector('.product__btn--plus');
-plusBtn.addEventListener('click', ()=> {
-    console.log(plusBtn);
-    const currentValue1 = document.querySelector('.product__number');
-    let addNumb = parseInt(currentValue1.innerText);
-    addNumb++;
-    currentValue1.innerText = addNumb;
-})
+const btnContainer = document.querySelector('.product__btnWrapper');
+btnContainer.addEventListener('click', plusBtn);
+
+function plusBtn(event) {
+    if(event.target.classList.contains("product__btn--plus")) {
+        const currentValue1 = event.target.parentNode.querySelector('.product__number');
+        let addNumb = parseInt(currentValue1.innerText);
+        addNumb++;
+        currentValue1.innerText = addNumb;
+    }
+}
+
+//     // plus
+// const plusBtn = document.querySelector('.product__btn--plus');
+// plusBtn.addEventListener('click', (event)=> {
+//     const currentValue1 = document.querySelector('.product__number');
+//     let addNumb = parseInt(currentValue1.innerText);
+//     addNumb++;
+//     currentValue1.innerText = addNumb;
+// })
 
 
     // minus
 const minusBtn = document.querySelector('.product__btn--minus');
 minusBtn.addEventListener('click', ()=> {
-    console.log(minusBtn);
+    // console.log(minusBtn);
     const currentValue2 = document.querySelector('.product__number');
     let removeNumb = parseInt(currentValue2.innerText);
     if(removeNumb != 0) {
         removeNumb--;
         currentValue2.innerText = removeNumb;
     }
-
 })
 
 // safe to local storage
