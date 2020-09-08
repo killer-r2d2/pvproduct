@@ -28,6 +28,7 @@ btnContainer.addEventListener('click', plusBtn);
 
 function plusBtn(event) {
     if(event.target.classList.contains("product__btn--plus")) {
+        // console.log(event.target.parentNode.querySelector('.product__number'));
         const currentValue1 = event.target.parentNode.querySelector('.product__number');
         let addNumb = parseInt(currentValue1.innerText);
         addNumb++;
@@ -44,18 +45,32 @@ function plusBtn(event) {
 //     currentValue1.innerText = addNumb;
 // })
 
+const btnContainer2 = document.querySelector('.product__btnWrapper');
+btnContainer2.addEventListener('click', minusBtn);
 
-    // minus
-const minusBtn = document.querySelector('.product__btn--minus');
-minusBtn.addEventListener('click', ()=> {
-    // console.log(minusBtn);
-    const currentValue2 = document.querySelector('.product__number');
+function minusBtn(event) {
+    // console.log(event.target.classList.contains("product__btn--minus"));
+    if(event.target.classList.contains("product__btn--minus")) {
+        const currentValue2 = event.target.parentNode.querySelector('.product__number');
     let removeNumb = parseInt(currentValue2.innerText);
     if(removeNumb != 0) {
         removeNumb--;
         currentValue2.innerText = removeNumb;
     }
-})
+    }
+}
+
+//     // minus
+// const minusBtn = document.querySelector('.product__btn--minus');
+// minusBtn.addEventListener('click', ()=> {
+//     // console.log(minusBtn);
+//     const currentValue2 = document.querySelector('.product__number');
+//     let removeNumb = parseInt(currentValue2.innerText);
+//     if(removeNumb != 0) {
+//         removeNumb--;
+//         currentValue2.innerText = removeNumb;
+//     }
+// })
 
 // safe to local storage
 const productNumb = document.querySelector('.product__busketNumb');
