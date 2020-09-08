@@ -52,6 +52,7 @@ function minusBtn(event) {
     // console.log(event.target.classList.contains("product__btn--minus"));
     if(event.target.classList.contains("product__btn--minus")) {
         const currentValue2 = event.target.parentNode.querySelector('.product__number');
+        console.log(event.target.parentNode.querySelector('.product__number'));
     let removeNumb = parseInt(currentValue2.innerText);
     if(removeNumb != 0) {
         removeNumb--;
@@ -72,8 +73,10 @@ function minusBtn(event) {
 //     }
 // })
 
+
+
+
 // safe to local storage
-const productNumb = document.querySelector('.product__busketNumb');
 const shopBtn = document.querySelector('.product__btnContainerB');
 shopBtn.addEventListener('click', ()=> {
     // we change the currentValue3 into a string with innerText

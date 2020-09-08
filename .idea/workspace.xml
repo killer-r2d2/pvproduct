@@ -10,7 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c80ab96-cd47-45e9-8d56-f9d6c75411d5" name="Default Changelist" comment="delegate approache for plusBtn">
+    <list default="true" id="2c80ab96-cd47-45e9-8d56-f9d6c75411d5" name="Default Changelist" comment="delegate approache for minusBtn">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
     </list>
@@ -73,7 +73,7 @@
       <workItem from="1599390606792" duration="614000" />
       <workItem from="1599460936852" duration="1661000" />
       <workItem from="1599486567640" duration="5143000" />
-      <workItem from="1599549045446" duration="1542000" />
+      <workItem from="1599549045446" duration="5529000" />
     </task>
     <task id="LOCAL-00001" summary="product in progess">
       <created>1598970987497</created>
@@ -96,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599491356573</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="delegate approache for minusBtn">
+      <created>1599551161777</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1599551161777</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,7 +125,8 @@
     <MESSAGE value="product in progess" />
     <MESSAGE value="product in progess 2" />
     <MESSAGE value="delegate approache for plusBtn" />
-    <option name="LAST_COMMIT_MESSAGE" value="delegate approache for plusBtn" />
+    <MESSAGE value="delegate approache for minusBtn" />
+    <option name="LAST_COMMIT_MESSAGE" value="delegate approache for minusBtn" />
   </component>
   <component name="WindowStateProjectService">
     <state x="3072" y="492" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598863307822">
@@ -138,10 +146,10 @@
       <screen x="3000" y="0" width="2560" height="1400" />
     </state>
     <state x="4075" y="926" key="Github.ShareDialog/0.0.1500.960/3000.0.2560.1400@3000.0.2560.1400" timestamp="1598971262239" />
-    <state x="3873" y="920" key="Vcs.Push.Dialog.v2" timestamp="1599491361581">
-      <screen x="3000" y="141" width="2560" height="1400" />
+    <state x="3873" y="779" key="Vcs.Push.Dialog.v2" timestamp="1599551166481">
+      <screen x="3000" y="0" width="2560" height="1400" />
     </state>
-    <state x="3873" y="779" key="Vcs.Push.Dialog.v2/0.0.1500.960/3000.0.2560.1400@3000.0.2560.1400" timestamp="1598971170057" />
+    <state x="3873" y="779" key="Vcs.Push.Dialog.v2/0.0.1500.960/3000.0.2560.1400@3000.0.2560.1400" timestamp="1599551166481" />
     <state x="3873" y="920" key="Vcs.Push.Dialog.v2/0.0.1500.960/3000.141.2560.1400@3000.141.2560.1400" timestamp="1599491361581" />
   </component>
 </project>
